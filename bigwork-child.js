@@ -104,6 +104,8 @@ window.onload = function(){
         var btn = document.getElementById('btn');
         var mz = document.getElementById('mz');
         var clear = document.getElementById('clear');
+        var clear1 = document.getElementById('clear1');
+        var clear2 = document.getElementById('clear2');
         var x1=document.getElementById("mz");
 		var x2=document.getElementById("buy");
         btn.onclick = function(){
@@ -115,6 +117,14 @@ window.onload = function(){
 			x1.style.display="none";
 			x2.style.display="none";
     	}
+        clear1.onclick= function(){
+            x1.style.display="none";
+            x2.style.display="none";
+        }
+        clear2.onclick= function(){
+            x1.style.display="none";
+            x2.style.display="none";
+        }
 
 
 	//放大镜
